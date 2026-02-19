@@ -1,6 +1,3 @@
-/* AI Image Generator - Cleaned Script */
-
-// DOM Elements
 const themeToggle = document.querySelector(".theme-toggle");
 const promptForm = document.querySelector(".prompt-form");
 const promptInput = document.querySelector(".prompt-input");
@@ -24,7 +21,7 @@ const examplePrompts = [
   "A dramatic ocean wave frozen in time, with a surfer mid-air, and glowing jellyfish swimming inside the wave",
 ];
 
-// API Key (Use environment variable or placeholder, do NOT commit your real key)
+
 const API_KEY = process.env.HF_TOKEN || "YOUR_API_KEY_HERE";
 
 // Utility: get image dimensions
