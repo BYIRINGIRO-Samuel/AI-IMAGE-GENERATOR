@@ -7,7 +7,6 @@ const countSelect = document.getElementById("count-select");
 const ratioSelect = document.getElementById("ratio-select");
 const galleryGrid = document.querySelector(".gallery-grid");
 
-// Example prompts
 const examplePrompts = [
   "A futuristic city skyline at sunset, with flying cars and neon lights reflecting off glass skyscrapers",
   "A peaceful Japanese village during cherry blossom season, with Mt. Fuji in the background and a river flowing through",
